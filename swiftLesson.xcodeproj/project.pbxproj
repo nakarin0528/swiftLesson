@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB763982CEF3B1B78932A3A1 /* Pods_swiftLesson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24486C13801610951041FE30 /* Pods_swiftLesson.framework */; };
 		DB6D2C2120049BCA00D6E785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6D2C2020049BCA00D6E785 /* AppDelegate.swift */; };
 		DB6D2C2320049BCA00D6E785 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6D2C2220049BCA00D6E785 /* ViewController.swift */; };
-		DB6D2C2620049BCA00D6E785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6D2C2420049BCA00D6E785 /* Main.storyboard */; };
 		DB6D2C2820049BCA00D6E785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6D2C2720049BCA00D6E785 /* Assets.xcassets */; };
 		DB6D2C2B20049BCA00D6E785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6D2C2920049BCA00D6E785 /* LaunchScreen.storyboard */; };
-		DB6D2C3620049BCA00D6E785 /* swiftLessonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6D2C3520049BCA00D6E785 /* swiftLessonTests.swift */; };
-		DB6D2C4120049BCA00D6E785 /* swiftLessonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6D2C4020049BCA00D6E785 /* swiftLessonUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +32,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24486C13801610951041FE30 /* Pods_swiftLesson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftLesson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF579C4C6F682BF180A2A5D /* Pods-swiftLesson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftLesson.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiftLesson/Pods-swiftLesson.debug.xcconfig"; sourceTree = "<group>"; };
+		B62B07A20624A8AB693D1ED1 /* Pods-swiftLesson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftLesson.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiftLesson/Pods-swiftLesson.release.xcconfig"; sourceTree = "<group>"; };
 		DB6D2C1D20049BCA00D6E785 /* swiftLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6D2C2020049BCA00D6E785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB6D2C2220049BCA00D6E785 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DB6D2C2520049BCA00D6E785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB6D2C2720049BCA00D6E785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB6D2C2A20049BCA00D6E785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB6D2C2C20049BCA00D6E785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB6D2C3120049BCA00D6E785 /* swiftLessonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftLessonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB6D2C3520049BCA00D6E785 /* swiftLessonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftLessonTests.swift; sourceTree = "<group>"; };
-		DB6D2C3720049BCA00D6E785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB6D2C3C20049BCA00D6E785 /* swiftLessonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftLessonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB6D2C4020049BCA00D6E785 /* swiftLessonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftLessonUITests.swift; sourceTree = "<group>"; };
-		DB6D2C4220049BCA00D6E785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB763982CEF3B1B78932A3A1 /* Pods_swiftLesson.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +71,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D40DCF4C81E3CE5B70FDBE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24486C13801610951041FE30 /* Pods_swiftLesson.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D43FE9FFB04B52FE80B25F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DF579C4C6F682BF180A2A5D /* Pods-swiftLesson.debug.xcconfig */,
+				B62B07A20624A8AB693D1ED1 /* Pods-swiftLesson.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DB6D2C1420049BCA00D6E785 = {
 			isa = PBXGroup;
 			children = (
 				DB6D2C1F20049BCA00D6E785 /* swiftLesson */,
-				DB6D2C3420049BCA00D6E785 /* swiftLessonTests */,
-				DB6D2C3F20049BCA00D6E785 /* swiftLessonUITests */,
 				DB6D2C1E20049BCA00D6E785 /* Products */,
+				8D43FE9FFB04B52FE80B25F5 /* Pods */,
+				2D40DCF4C81E3CE5B70FDBE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,30 +113,11 @@
 			children = (
 				DB6D2C2020049BCA00D6E785 /* AppDelegate.swift */,
 				DB6D2C2220049BCA00D6E785 /* ViewController.swift */,
-				DB6D2C2420049BCA00D6E785 /* Main.storyboard */,
 				DB6D2C2720049BCA00D6E785 /* Assets.xcassets */,
 				DB6D2C2920049BCA00D6E785 /* LaunchScreen.storyboard */,
 				DB6D2C2C20049BCA00D6E785 /* Info.plist */,
 			);
 			path = swiftLesson;
-			sourceTree = "<group>";
-		};
-		DB6D2C3420049BCA00D6E785 /* swiftLessonTests */ = {
-			isa = PBXGroup;
-			children = (
-				DB6D2C3520049BCA00D6E785 /* swiftLessonTests.swift */,
-				DB6D2C3720049BCA00D6E785 /* Info.plist */,
-			);
-			path = swiftLessonTests;
-			sourceTree = "<group>";
-		};
-		DB6D2C3F20049BCA00D6E785 /* swiftLessonUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DB6D2C4020049BCA00D6E785 /* swiftLessonUITests.swift */,
-				DB6D2C4220049BCA00D6E785 /* Info.plist */,
-			);
-			path = swiftLessonUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB6D2C4520049BCA00D6E785 /* Build configuration list for PBXNativeTarget "swiftLesson" */;
 			buildPhases = (
+				9C6248176D4794E053BBD874 /* [CP] Check Pods Manifest.lock */,
 				DB6D2C1920049BCA00D6E785 /* Sources */,
 				DB6D2C1A20049BCA00D6E785 /* Frameworks */,
 				DB6D2C1B20049BCA00D6E785 /* Resources */,
+				73696F24AC02764F5053ACFA /* [CP] Embed Pods Frameworks */,
+				931507F1D1AC40D0C747C6E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,7 +232,6 @@
 			files = (
 				DB6D2C2B20049BCA00D6E785 /* LaunchScreen.storyboard in Resources */,
 				DB6D2C2820049BCA00D6E785 /* Assets.xcassets in Resources */,
-				DB6D2C2620049BCA00D6E785 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +251,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		73696F24AC02764F5053ACFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-swiftLesson/Pods-swiftLesson-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiftLesson/Pods-swiftLesson-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		931507F1D1AC40D0C747C6E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiftLesson/Pods-swiftLesson-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C6248176D4794E053BBD874 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftLesson-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DB6D2C1920049BCA00D6E785 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -268,7 +319,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB6D2C3620049BCA00D6E785 /* swiftLessonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +326,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB6D2C4120049BCA00D6E785 /* swiftLessonUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +345,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DB6D2C2420049BCA00D6E785 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB6D2C2520049BCA00D6E785 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DB6D2C2920049BCA00D6E785 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -424,6 +465,7 @@
 		};
 		DB6D2C4620049BCA00D6E785 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF579C4C6F682BF180A2A5D /* Pods-swiftLesson.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +481,7 @@
 		};
 		DB6D2C4720049BCA00D6E785 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B62B07A20624A8AB693D1ED1 /* Pods-swiftLesson.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

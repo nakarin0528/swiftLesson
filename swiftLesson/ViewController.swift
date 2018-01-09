@@ -1,18 +1,16 @@
-//
-//  ViewController.swift
-//  swiftLesson
-//
-//  Created by Iko Nakari on 2018/01/09.
-//  Copyright © 2018年 Iko Nakari. All rights reserved.
-//
-
 import UIKit
+import SnapKit
 
 class ViewController: UIViewController {
-
+    
+    // 変数の定義はここに書きましょう！
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // 画面の背景を白にする
+        self.view.backgroundColor = .white
+        
+        // 実行したいものはここに書きましょう！
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +18,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    // 関数を作るときはここに書きましょう！
 
 }
 
