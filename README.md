@@ -1,6 +1,14 @@
 # 初心者歓迎、SwiftでiOS開発しよう！
 iOSアプリ開発勉強会のためのリポジトリ
 
+## このリポジトリをローカルに持ってきてください！
+gitを用いたやり方
+```
+git clone https://github.com/nakarin0528/swiftLesson.git
+```
+git がわからない人はこちら
+https://github.com/nakarin0528/swiftLesson/archive/master.zip
+
 ## 学内でgitやpodを使う時
 terminalでプロキシの設定が必要です！
 下の2行をコピペしてterminalで実行してください。
